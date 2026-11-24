@@ -1,0 +1,206 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Docoo Privacy Policy</title>
+<meta name="description" content="How Docoo — Document Scanner handles your documents, camera access, text recognition and subscriptions.">
+<meta name="color-scheme" content="light dark">
+<link rel="icon" type="image/png" href="assets/favicon.png">
+<link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
+<style>
+  :root {
+    --bg: #F6F8FB;
+    --surface: #FFFFFF;
+    --text: #12161D;
+    --muted: #4A5363;
+    --border: #E2E7EF;
+    --brand: #0057F2;
+    --brand-soft: #E2ECFF;
+    --accent: linear-gradient(90deg, #005CF8, #00C9D8);
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #0E1014;
+      --surface: #171A21;
+      --text: #ECEFF4;
+      --muted: #A7B0BF;
+      --border: #2A2F3A;
+      --brand: #6EA2FF;
+      --brand-soft: #1A2740;
+    }
+  }
+  * { box-sizing: border-box; }
+  html { -webkit-text-size-adjust: 100%; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--text);
+    font: 17px/1.6 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  }
+  .bar { height: 4px; background: var(--accent); }
+  main { max-width: 760px; margin: 0 auto; padding: 32px 16px 64px; }
+  header { display: flex; flex-direction: column; gap: 10px; margin-bottom: 28px; }
+  header img { width: 150px; height: auto; }
+  h1 { font-size: 2rem; line-height: 1.2; margin: 8px 0 0; letter-spacing: -0.01em; }
+  .meta { color: var(--muted); font-size: 0.95rem; margin: 0; }
+  h2 { font-size: 1.3rem; margin: 40px 0 10px; line-height: 1.3; scroll-margin-top: 16px; }
+  h3 { font-size: 1.05rem; margin: 22px 0 6px; }
+  p, li { color: var(--text); }
+  ul { padding-left: 1.25rem; }
+  li { margin: 6px 0; }
+  a { color: var(--brand); text-underline-offset: 2px; }
+  .card {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 16px;
+    padding: 18px 20px;
+  }
+  .summary { background: var(--brand-soft); border-color: transparent; }
+  .summary h2 { margin-top: 0; }
+  .summary ul { margin-bottom: 0; }
+  nav ol { columns: 2; column-gap: 28px; padding-left: 1.25rem; margin: 0; font-size: 0.95rem; }
+  nav li { margin: 4px 0; break-inside: avoid; }
+  table { width: 100%; border-collapse: collapse; font-size: 0.95rem; }
+  th, td { text-align: left; vertical-align: top; padding: 10px 8px; border-top: 1px solid var(--border); }
+  th { color: var(--muted); font-weight: 600; }
+  .table-wrap { overflow-x: auto; }
+  footer { margin-top: 48px; color: var(--muted); font-size: 0.9rem; }
+  @media (max-width: 560px) {
+    body { font-size: 16px; }
+    h1 { font-size: 1.65rem; }
+    nav ol { columns: 1; }
+    th, td { padding: 8px 6px; }
+  }
+</style>
+</head>
+<body>
+<div class="bar" aria-hidden="true"></div>
+<main>
+  <header>
+    <img src="assets/wordmark.png" alt="Docoo" width="150" height="65">
+    <h1>Privacy Policy</h1>
+    <p class="meta">Docoo — Document Scanner · iOS and Android · Effective 24 November 2026</p>
+  </header>
+
+  <section class="card summary" aria-labelledby="summary">
+    <h2 id="summary">The short version</h2>
+    <ul>
+      <li>Your scans, photos, edits, recognised text and exports stay on your device. The developer never receives them.</li>
+      <li>There is no account, no advertising, no analytics SDK and no tracking across apps.</li>
+      <li>Subscriptions are processed by Apple or Google. The app uses RevenueCat to check your subscription; it receives an anonymous ID, purchase records and basic device information, never your documents.</li>
+      <li>On Android, Google's on-device text recognition (ML Kit) may send Google usage and diagnostic metrics. Your images and text are never sent.</li>
+      <li>You can delete everything in the app at any time.</li>
+    </ul>
+  </section>
+
+  <nav aria-label="Contents" style="margin-top:28px">
+    <ol>
+      <li><a href="#who">Who is responsible</a></li>
+      <li><a href="#device">Data that stays on your device</a></li>
+      <li><a href="#permissions">Camera and photos</a></li>
+      <li><a href="#ocr">Text recognition (OCR)</a></li>
+      <li><a href="#subscriptions">Subscriptions and RevenueCat</a></li>
+      <li><a href="#not">What Docoo does not do</a></li>
+      <li><a href="#sharing">Sharing and exports you choose</a></li>
+      <li><a href="#backups">Device backups</a></li>
+      <li><a href="#retention">Retention and deletion</a></li>
+      <li><a href="#security">Security</a></li>
+      <li><a href="#rights">Your rights and legal bases</a></li>
+      <li><a href="#transfers">International transfers</a></li>
+      <li><a href="#children">Children</a></li>
+      <li><a href="#changes">Changes to this policy</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ol>
+  </nav>
+
+  <h2 id="who">1. Who is responsible</h2>
+  <p>Docoo — Document Scanner ("Docoo", "the app") is developed and published by <strong>Daha Madhavan</strong>, an individual developer ("I", "me"). I am the controller of the limited personal data described in this policy. You can reach me at <a href="mailto:info@artofdaha.com">info@artofdaha.com</a>.</p>
+
+  <h2 id="device">2. Data that stays on your device</h2>
+  <p>Docoo is built to work offline. Everything you create in the app is stored only in the app's private storage on your device:</p>
+  <ul>
+    <li>original photos you capture or import, and the edited (cropped, rotated, filtered) versions;</li>
+    <li>document names, folders, page order, favourites and edit settings;</li>
+    <li>text recognised from your pages (OCR), signatures you draw, and annotations;</li>
+    <li>files you export (PDF, image, text or Word), until you save or share them elsewhere;</li>
+    <li>app settings, and a cached copy of your subscription status so Premium keeps working offline.</li>
+  </ul>
+  <p>None of this is uploaded to me or to any server operated by me. I don't run any servers for Docoo, and I can't see, access or recover your documents.</p>
+
+  <h2 id="permissions">3. Camera and photos</h2>
+  <ul>
+    <li><strong>Camera.</strong> Used only to scan documents while the scanner is open. Images are processed on your device (edge detection, perspective correction and enhancement).</li>
+    <li><strong>Photos.</strong> Used only when you choose to import pictures. The app receives just the photos you select in the system picker, and copies them into its private storage.</li>
+    <li>Docoo does not request access to your microphone, location, contacts or calendars. The Android microphone and shared-storage permissions are explicitly removed from the app.</li>
+  </ul>
+  <p>You can change these permissions at any time in your device settings. The rest of the app keeps working without them.</p>
+
+  <h2 id="ocr">4. Text recognition (OCR)</h2>
+  <ul>
+    <li><strong>iOS:</strong> text is recognised on your device with Apple's Vision framework. Images and text are not sent anywhere.</li>
+    <li><strong>Android:</strong> text is recognised on your device with Google ML Kit, using a model bundled inside the app. According to Google, the images and the recognised text are processed entirely on-device and are not sent to Google. ML Kit may, however, contact Google to send <em>usage and diagnostic metrics</em>, such as device model and OS version, the app's package name and version, a per-installation identifier that Google says is not intended to identify you or your device, performance figures, configuration details and error codes. Google uses these to maintain and improve ML Kit and detect abuse. See <a href="https://developers.google.com/ml-kit/android-data-disclosure" rel="noopener">Google's ML Kit data disclosure</a> and <a href="https://policies.google.com/privacy" rel="noopener">Google's Privacy Policy</a>.</li>
+  </ul>
+
+  <h2 id="subscriptions">5. Subscriptions and RevenueCat</h2>
+  <p>Docoo Premium is sold as an in-app subscription through the <strong>Apple App Store</strong> or <strong>Google Play</strong>. Apple or Google handle the payment under your account with them. I never receive your payment card details, name, email address or billing address.</p>
+  <p>To know whether you have Premium, to restore purchases and to show current subscription offers, the app uses <strong>RevenueCat</strong> (RevenueCat, Inc., USA), a subscription-management service that acts as my processor. The app connects to RevenueCat when it starts, <em>whether or not you subscribe</em>. RevenueCat receives:</p>
+  <div class="table-wrap">
+    <table>
+      <thead><tr><th scope="col">Data</th><th scope="col">Details</th></tr></thead>
+      <tbody>
+        <tr><td>Anonymous app user ID</td><td>A random ID created by the RevenueCat SDK the first time the app runs. It's not linked to your name, email or Apple/Google account.</td></tr>
+        <tr><td>Purchase information</td><td>App Store receipts or Google Play purchase tokens, products, prices, currency, transaction dates and subscription status.</td></tr>
+        <tr><td>Device and app information</td><td>Device model, operating-system version, app version and bundle ID, preferred languages, store country, whether the purchase is a test (sandbox) purchase, and the time the app last connected.</td></tr>
+        <tr><td>Device identifier (iOS)</td><td>Apple's identifier for vendor (IDFV), an ID shared only by apps from the same developer on your device. It is not the advertising identifier.</td></tr>
+        <tr><td>IP address</td><td>Seen when the app connects. RevenueCat states it uses the address to determine your country and does not store it.</td></tr>
+      </tbody>
+    </table>
+  </div>
+  <p>This information is used to provide and restore your subscription, prevent fraud and give me aggregate subscription statistics (for example, how many people subscribe). It is not used for advertising or to track you across other companies' apps or websites. Docoo does not enable RevenueCat's optional features that collect advertising identifiers (IDFA or Google Advertising ID) or connect your purchases to marketing tools. RevenueCat stores data on servers in the United States. Its handling is described in the <a href="https://www.revenuecat.com/privacy" rel="noopener">RevenueCat Privacy Policy</a>. Apple and Google process purchases under their own privacy policies.</p>
+
+  <h2 id="not">6. What Docoo does not do</h2>
+  <ul>
+    <li>No user accounts or sign-in.</li>
+    <li>No advertising, and no advertising identifiers.</li>
+    <li>No analytics or crash-reporting SDKs.</li>
+    <li>No tracking across apps or websites, and no selling or renting of personal data.</li>
+    <li>No uploading of your documents, photos or recognised text.</li>
+  </ul>
+
+  <h2 id="sharing">7. Sharing and exports you choose</h2>
+  <p>When you share or export a document (for example by email, AirDrop, a messaging app, Files or Google Drive), it goes to the destination you pick via your device's share sheet. From then on, the recipient's or that service's privacy policy applies. Password-protected PDFs are encrypted on your device before they are shared.</p>
+
+  <h2 id="backups">8. Device backups</h2>
+  <p>Your operating system may include Docoo's data in backups you have turned on, such as iCloud Backup or a computer backup on iOS, or Google's backup of app data on Android. These backups are managed by Apple or Google under your account and settings; I have no access to them. Copies in a backup can remain after you delete documents or uninstall the app, until that backup is replaced or deleted.</p>
+
+  <h2 id="retention">9. Retention and deletion</h2>
+  <ul>
+    <li><strong>On your device:</strong> documents stay until you delete them. Deleted documents go to Trash first, where you can restore or permanently delete them. <em>Settings › Privacy › Delete all documents</em> permanently removes every document, original photo, edit and export. Uninstalling the app removes its data from the device (but see <a href="#backups">backups</a>).</li>
+    <li><strong>At RevenueCat:</strong> subscription records are kept while I use RevenueCat and for the periods described in RevenueCat's policy. To ask for them to be deleted, email me with your App Store or Google Play order ID (from your purchase receipt) so I can find the matching anonymous record. Deleting this data does not cancel your subscription; manage or cancel it in your Apple ID or Google Play settings.</li>
+    <li><strong>At Google (Android OCR metrics):</strong> retained by Google as described in its policies.</li>
+  </ul>
+
+  <h2 id="security">10. Security</h2>
+  <p>Documents are kept in the app's sandboxed storage, which other apps cannot read and which your device's operating system protects (including its encryption when the device is locked with a passcode). Connections to RevenueCat and Google use encrypted HTTPS. You can also export password-protected PDFs, which are encrypted with AES. No method of storage or transmission is perfectly secure, so please keep your device protected with a passcode.</p>
+
+  <h2 id="rights">11. Your rights and legal bases</h2>
+  <p>Depending on where you live (for example under the EU/UK GDPR or California law), you may have the right to access, correct, delete or object to the processing of your personal data, to restrict it or receive a copy of it, and to complain to your local data-protection authority. Because your documents never leave your device, you control them directly in the app. For data held by RevenueCat on my behalf, contact me as described above. I'll respond within the time required by law.</p>
+  <p>Where the GDPR applies, I rely on: <em>performance of a contract</em> to provide and restore subscriptions you purchase; and <em>legitimate interests</em> in preventing fraud, understanding subscription performance in aggregate, and (on Android) keeping text recognition working reliably. I do not sell or share personal information for cross-context behavioural advertising.</p>
+
+  <h2 id="transfers">12. International transfers</h2>
+  <p>RevenueCat and Google may process the data described above in the United States and other countries. RevenueCat states that it relies on the European Commission's Standard Contractual Clauses (and the UK equivalent) for such transfers.</p>
+
+  <h2 id="children">13. Children</h2>
+  <p>Docoo is a general-purpose productivity app and is not directed at children under 13, or the equivalent minimum age where you live. I do not knowingly collect personal data from children. Subscriptions are purchased through Apple or Google accounts, which have their own family and age controls.</p>
+
+  <h2 id="changes">14. Changes to this policy</h2>
+  <p>If the app's data practices change (for example, a new service is added), I'll update this page and its effective date before the change takes effect. Significant changes will also be noted in the app's release notes.</p>
+
+  <h2 id="contact">15. Contact</h2>
+  <p>Questions or requests about privacy: <a href="mailto:info@artofdaha.com">info@artofdaha.com</a><br>Developer: Daha Madhavan (individual developer)<br>App: Docoo — Document Scanner (bundle ID com.docoo.scanner)</p>
+
+  <footer>© 2026 Daha Madhavan · Docoo — Document Scanner</footer>
+</main>
+</body>
+</html>
